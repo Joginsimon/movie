@@ -1,0 +1,52 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/testinl"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+
+        android:src="@drawable/baseline_10k_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#3078BF"
+        android:layout_margin="10dp"
+        android:text="\n\n\nLOGIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:drawableLeft="@drawable/baseline_10k_24"
+        android:id="@+id/use"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Password"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/pas"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="#0A98F0"
+        android:textColor="#E64319"
+        android:layout_margin="10dp"
+        android:id="@+id/sub"
+        android:text="SUBMIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
